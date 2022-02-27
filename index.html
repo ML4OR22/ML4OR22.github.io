@@ -163,19 +163,47 @@
                             </header>
                             All times are in <b>PST (UCT-8:00)</b>
 							<ul class="list-group list-group-flush">
-                                <li class="list-group-item"><b>[09:00-09:05]:</b>       Workshop Opening</li>
-                                <li class="list-group-item"><b>[09:05-09:50]:</b>    Invited Talk 1 </li>
-                                <li class="list-group-item"><b>[09:50-10:05]:</b>   Paper Presentations 1 (3 papers) </li>
-                                <li class="list-group-item"><b>[10:05-11:50]:</b>  Invited Talk 2 </li>
-                                <li class="list-group-item"><b>[11:50-12:05]:</b>  Paper Presentations 2 (3 papers) </li>
-                                <li class="list-group-item"><b>[12:05-12:15]:</b>  BREAK </li>
-                                <li class="list-group-item"><b>[12:15-13:00]:</b>   Invited Talk 3 </li>
-                                <li class="list-group-item"><b>[13:00-13:15]:</b>    Paper Presentations 3 (3 papers) </li>
-                                <li class="list-group-item"><b>[13:15-14:00]:</b>    Invited Talk 4 </li>
-                                <li class="list-group-item"><b>[14:00-14:10]:</b>    Paper Presentations 4 (2 papers) </li>
-                                <li class="list-group-item"><b>[14:10-14:10]:</b>         Farewells </li>
+                                <li class="list-group-item"><b>[09:00-09:05]:</b>  Workshop Opening</li>
+                                <li class="list-group-item"><b>[09:05-09:50]:</b>  Invited Talk 1 <b>[Ellen Vitercik]</b></li>
+                                <li class="list-group-item"><b>[09:50-10:05]:</b>  Paper Presentations 1 (3 papers) </li>
+                                <li class="list-group-item"><b>[10:05-11:50]:</b>  Invited Talk 2 <b>[Stefanie Jegelka]</b></li>
+                                <li class="list-group-item"><b>[11:50-12:00]:</b>  Paper Presentations 2 (3 papers) </li>
+                                <li class="list-group-item"><b>[12:00-12:15]:</b>  BREAK </li>
+                                <li class="list-group-item"><b>[12:15-13:00]:</b>  Invited Talk 3 <b>[Pascal van Hentenryck]</b></li>
+                                <li class="list-group-item"><b>[13:00-13:15]:</b>  Paper Presentations 3 (3 papers) </li>
+                                <li class="list-group-item"><b>[13:15-14:00]:</b>  Invited Talk 4 <b>[Kevin Leyton-Brown]</b></li>
+                                <li class="list-group-item"><b>[14:00-14:10]:</b>  Paper Presentations 4 (2 papers) </li>
+                                <li class="list-group-item"><b>[14:10-14:10]:</b>  Farewells </li>
                             </ul>
 						</section>
+
+                        <section>
+                            <header class="major" id="talks">
+                                <h2>Invited Talks</h2>
+                            </header>
+
+                            <h3>Sample Complexity of Tree Search Configuration: Cutting Planes and Beyond - Ellen Vitercik [09:05-09:50]</h3>
+                            <p><b>Abstract:</b> Cutting-plane methods have enabled remarkable successes in integer programming over the last few decades. State-of-the-art solvers integrate a myriad of cutting-plane techniques to speed up the underlying tree search algorithm used to find optimal solutions. In this talk, we provide the first sample complexity guarantees for learning high-performing cut-selection policies tailored to the instance distribution at hand using samples. We then develop a general abstraction of tree search that captures key components such as node selection and variable selection. For this abstraction, we bound the sample complexity of learning a good policy for building the search tree. Finally, we describe how our techniques can be generalized to cover a diversity of other combinatorial algorithm configuration problems, including clustering, computational biology, and greedy algorithm configuration.
+                                This talk is based on joint work with Nina Balcan, Dan DeBlasio, Travis Dick, Carl Kingsford, Siddharth Prasad, and Tuomas Sandholm.
+                            </p>
+                            <p><b>Bio:</b> Ellen Vitercik is a Miller postdoctoral fellow at UC Berkeley. In Fall 2022, she will join Stanford as an Assistant Professor with a joint appointment between the Management Science and Engineering department and the Computer Science Department. Her research revolves around machine learning theory, algorithm design, and the interface between economics and computation. She received a PhD in Computer Science from Carnegie Mellon University (CMU), where her thesis won the CMU School of Computer Science Distinguished Dissertation Award and the Honorable Mention Victor Lesser Distinguished Dissertation Award.
+
+
+                            <h3>Generalization and Extrapolation in Graph Neural Networks for Learning Combinatorial Algorithms - Stefanie Jegelka [10:05-11:50] </h3>
+                            <p><b>Abstract:</b> Graph Neural Networks (GNNs) have become a popular tool for learning certain algorithmic tasks, in particular related to combinatorial optimization. In this talk, we will focus on the “algorithmic reasoning” task of learning a full algorithm. While GNNs have shown promising empirical results, their generalization properties are less well understood. In particular, the task and data properties, architecture and learning algorithm all affect the results. For instance, empirically, we observe an interplay between the structure of the task — or target algorithm — and the inductive biases of the architecture: although many networks may be able to represent a task, some architectures learn it better than others. I will show an approach to formalize this relationship, and empirical and theoretical implications for generalization within and out of the training distribution. Our results suggest that a strong alignment between model and task can enable extrapolation, and, in particular, nonlinearities play a key role.
+                                This talk is based on joint work with Keyulu Xu, Jingling Li, Mozhi Zhang, Simon S. Du and Ken-ichi Kawarabayashi.
+                            </p>
+                            <p><b>Bio:</b> Stefanie Jegelka is an Associate Professor in the Department of EECS at MIT. Before joining MIT, she was a postdoctoral researcher at UC Berkeley, and obtained her PhD from ETH Zurich and the Max Planck Institute for Intelligent Systems. Stefanie has received a Sloan Research Fellowship, an NSF CAREER Award, a DARPA Young Faculty Award, Google research awards, a Two Sigma faculty research award, the German Pattern Recognition Award and a Best Paper Award at ICML. She has co-organized multiple workshops on (discrete) optimization in machine learning and graph representation learning, and serves as an Action Editor at JMLR and a program chair of ICML 2022. Her research interests span the theory and practice of algorithmic machine learning, in particular, learning problems that involve combinatorial structure.</p>
+
+
+                            <h3>Machine Learning for Engineering - Pascal van Hentenryck [12:15-13:00]</h3>
+                            <p><b>Abstract:</b> TBA </p>
+                            <p><b>Bio:</b> TBA </p>
+
+                            <h3>Kevin Leyton-Brown [13:15-14:00]</h3>
+                            <p><b>Abstract:</b> TBA </p>
+                            <p><b>Bio:</b> Kevin Leyton-Brown is a professor of Computer Science and a Distinguished University Scholar at the University of British Columbia. He also holds a Canada CIFAR AI Chair at the Alberta Machine Intelligence Institute and is an associate member of the Vancouver School of Economics. He received a PhD and an M.Sc. from Stanford University (2003; 2001) and a B.Sc. from McMaster University (1998). He studies artificial intelligence, mostly at the intersection of machine learning and (1) the design and operation of electronic markets and (2) the design of heuristic algorithms. He has co-written two books, "Multiagent Systems" and "Essentials of Game Theory," and over 150 peer-refereed technical articles; his work has received over 20,000 citations and an h-index of 56. He is an Fellow of the Association for Computing Machinery (ACM; awarded in 2020) and the Association for the Advancement of Artificial Intelligence (AAAI; awarded in 2018). </p>
+                        </section>
 
 						<section>
 							<header class="major" id="accepted_papers">
